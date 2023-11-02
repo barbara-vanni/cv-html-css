@@ -28,8 +28,20 @@
                     </section>
                 </section>
             </section>
+            <section class="tab-bar radius">
+                <a class="tab" href="#" data-text="Marseille (13)">
+                    <span class="icon">Address</span>
+                </a>
+                <a class="tab" href="#" data-text="06.03.04.74.16">
+                    <span class="icon">Phone</span>
+                </a>
+                <a class="tab" id="tab-right" href="#" data-text="barbara.vanni@laplateforme.io">
+                    <span class="icon">Email</span>
+                </a>
+            </section>
         </section>
     </section>
+
 
     <!-- Informations personnelles-->
     <!-- <section class="informations_personnelles">
@@ -40,7 +52,6 @@
         <p>06.03.04.74.16</p>
         <p>13009 Marseille</p>
     </section> -->
-    <hr>
     <!--Texte introduction-->
     <section class="bandeau">
         <h2>A propos</h2>
@@ -50,7 +61,6 @@
             où je suis actuellement en Bachelor-IT 1ère Année.
         </p>
     </section>
-    <hr>
 
     <section class="gauche">
         <!-- Expériences professionnelles -->
@@ -58,20 +68,20 @@
             <h2>Expérience professionnelle</h2>
             <article>
                 <h3>Designer Junior (2023)</h3>
-                <p>Pour le DesignLab Transition</p>
+                <i>Pour le DesignLab Transition</i>
                 <p>Projet d'étude, conception et fabrication d'une salle de cours Low-tech</p>
                 <p>à L'ENIB-Brest (en cours)</p>
             </article>
             <article>
-                <h3>Designer Junior Co-animateur(2022)</h3>
+                <h3>Designer Junior Co-animateur (2022)</h3>
                 <p>Remplacement designer titulaire</p>
-                <p>Pour la Région Bretagne au sein de la cellule d'innovation Ti-HUB</p>
+                <i>Pour la Région Bretagne au sein de la cellule d'innovation Ti-HUB</i>
                 <p>Projet Carnet d'inspiration ADN Territorial-Région Bretagne</p>
                 <p>Atelier de co-conception avec différents destinations phares de Bretagne</p>
             </article>
             <article>
                 <h3>Designer Junior (2020-2022)</h3>
-                <p>Pour l'association Les Manufacteurs</p>
+                <i>Pour l'association Les Manufacteurs</i>
                 <a href="https://www.lesmanufacteurs.com" role="link">www.lesmanufacteurs.com </a>
                 <ul>
                     <li>Dévellopement stratégique de la structure</li>
@@ -83,8 +93,8 @@
                 </ul>
             </article>
             <article>
-                <h3>Designer Stagiare (2019-2020)</h3>
-                <p>Pour l'association Les Manufacteurs</p>
+                <h3>Designer Stagiaire (2019-2020)</h3>
+                <i>Pour l'association Les Manufacteurs</i>
                 <a href="https://www.lesmanufacteurs.com" role="link">www.lesmanufacteurs.com</a>
                 <p>Projet Commande Publique de Brest Métropole pour le site des Capucins</p>
                 <ul>
@@ -95,11 +105,12 @@
             </article>
         </section>
         <!--Dipôme Obtenus-->
+        <hr>
         <section>
             <h2>Diplôme</h2>
             <article>
                 <h3>Diplôme National Supérieur d'Expression Plastique (BAC +5)</h3>
-                <p>Option Design</p>
+                <i>Option Design</i>
                 <p>Au sein du Master Design en Transition à l'EESAB-Brest</p>
                 <p>2022</p>
             </article>
@@ -110,15 +121,15 @@
     <section class="droite">
         <div class="circle"></div>
         <!--Formations en cours et passées  -->
-        <section >
+        <section>
             <h2>Formations </h2>
-            <article>
-                <h3>Formation en cours</h3>
+            <article class="formation">
+                <h3 class="formation">Formation en cours</h3>
                 <p>Bachelor-IT 1ère Année</p>
                 <p>Ecole La Plateforme- Marseille (13002)</p>
             </article>
-            <article>
-                <h3>Formations passées</h3>
+            <article class="formation">
+                <h3 class="formation">Formations passées</h3>
                 <p>Formation AWS/restart</p>
                 <p>Mai 2023 à Août 2023</p>
                 <p>Formation Amazon Architect Cloud</p>
@@ -128,28 +139,41 @@
 
         <hr>
         <!--Liste Compétences-->
-        <section>
+        <section class="competence">
             <h2>Mes compétences</h2>
             <ul>
                 <li>
                     <p>Illustrator</p>
                     <img src="images/illustartor.jpg" alt="Logo Illustrator" width="70" height="68">
-                    <progress value="50" max="100"></progress>
+                    <!-- <p><progress value="50" max="100"></progress></p> -->
+                    <div class="progress" id="progressillustrator">
+                        <div class="progress-value"></div>
+                    </div>
+
                 </li>
                 <li>
                     <p>Indesign</p>
                     <img src="images/Indesign.png" alt="Logo Indesign" width="70" height="72">
-                    <progress value="70" max="100"></progress>
+                    <!-- <p><progress value="70" max="100"></progress></p> -->
+                    <div class="progress">
+                        <div class="progress-value" id="progressindesign"> </div>
+                    </div>
                 </li>
                 <li>
                     <p>Photoshop</p>
                     <img src="images/Photoshop.jpg" alt="Logo Photoshop" width="70" height="70">
-                    <progress value="70" max="100"></progress>
+                    <!-- <p><progress value="70" max="100"></progress></p> -->
+                    <div class="progress">
+                        <div class="progress-value" id="progressphotoshop"></div>
+                    </div>
                 </li>
                 <li>
                     <p>Github</p>
                     <img src="images/GitHub-Symbol.png" aria-label="" alt="Logo Github" width="100" height="56">
-                    <progress value="40" max="100"></progress>
+                    <!-- <p><progress value="40" max="100"></progress></p> -->
+                    <div class="progress">
+                        <div class="progress-value" id="progressgithub"></div>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -159,11 +183,11 @@
     <!--Pied de page avec le lien vers mon Github/Linkedin/ telechargement pdf-->
     <footer class="bandeau">
         <section class="bouton">
-        <a id="git" href="https://github.com/barbara-vanni" role="link"><img src="images/GitHub-Symbol.png" alt="Logo Github"
-                width="100" height="56"></a>
-        <a id="telecharger" href="CV-barbara-vanni.pdf" download="CV-barbara-vanni.pdf">Télécharger le CV en PDF</a>
-        <a id="linkedin" href="https://www.linkedin.com/in/barbara-vanni-225969185" role="link"><img src="images/Linkedin.jpg"
-                alt="Logo Linkedin" width="50" height="50"></a>
+            <a id="git" href="https://github.com/barbara-vanni" role="link"><img src="images/GitHub-Symbol.png"
+                    alt="Logo Github" width="100" height="56"></a>
+            <a id="telecharger" href="CV-barbara-vanni.pdf" download="CV-barbara-vanni.pdf">Télécharger le CV en PDF</a>
+            <a id="linkedin" href="https://www.linkedin.com/in/barbara-vanni-225969185" role="link"><img
+                    src="images/Linkedin.jpg" alt="Logo Linkedin" width="50" height="50"></a>
         </section>
     </footer>
 
