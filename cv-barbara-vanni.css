@@ -8,6 +8,7 @@ body {
     color: #004225;
     margin: 50px;
     background-color: #F5F5DC;
+    /* overflow: hidden; */
     /* background: linear-gradient(to bottom, #fffefe 0%, #4e337e 100%); */
     /* -webkit-font-smoothing: antialiased; */
 
@@ -24,13 +25,23 @@ hr {
     margin-bottom: 50px;
 }
 
-h1 {
-    display: flex;
-    justify-content: left;
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 200px;
+.textvideo {
+        background: url(images/pasta.gif);
+        background-size: contain;
+        background-position: top left;
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: 2px;
+        /* line-height: ; */
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+h1{
+    margin:10px;
+    font-size: 200px;
+    
+}
+
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,16 +96,16 @@ a {
 }
 
 
-    
-    @keyframes load {
-        0% {
-            width: 0;
-        }
-    
-        100% {
-            width: 45%;
-        }
+
+@keyframes load {
+    0% {
+        width: 0;
     }
+
+    100% {
+        width: 45%;
+    }
+}
 
 
 
