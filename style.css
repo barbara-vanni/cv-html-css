@@ -26,20 +26,20 @@ hr {
 }
 
 .textvideo {
-        background: url(images/pasta.gif);
-        background-size: contain;
-        background-position: top left;
-        -webkit-background-clip: text;
-        color: transparent;
-        letter-spacing: 2px;
-        /* line-height: ; */
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url(images/pasta.gif);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    /* line-height: ; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h1{
-    margin:10px;
+h1 {
+    margin: 10px;
     font-size: 200px;
-    
+
 }
 
 
@@ -371,6 +371,23 @@ footer {
 .formation {
     color: #FFCF9D
 }
+
+.project-container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-list p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.project img {
+    width: 50vw;
+    border-radius: 50px;
+}
+
 
 
 
